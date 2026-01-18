@@ -1,7 +1,7 @@
 # controlsPractice
-Basic Controls / Industrial Engineering Practice - Thomas Garry:
+Basic Controls Practice - Thomas Garry:
 
-This is my first attempt at creating a basic industrial control panel in an effort to learn about controls engineering. The panel features two relays: one which latches when a pushbutton closes, and a second that drives a DC motor from a separate power source. The second motor also latches with the first, as it is in series with it. An emergency stop switch is included to quickly disable power to both relays. 
+This is my first attempt at creating a basic control panel in an effort to learn about controls engineering. The panel features two relays: one which latches when a pushbutton closes, and a second that drives a DC motor from a separate power source. The second motor also latches with the first, as it is in series with it. An emergency stop switch is included to quickly disable power to both relays. 
 
 <div align="center">
   <img src="breadboardPanelV1.jpg" alt="Simulated control panel" width="800"><br>
