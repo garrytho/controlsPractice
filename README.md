@@ -9,6 +9,15 @@ This is my second attempt at building a basic control system to learn industrial
 </div>
 <br>
 
+<div align="center">
+  <img src="Micro800_PLC_Example.png" alt="Simulated control panel" width="700"><br>
+  <em>The simulated Micro800 PLC used</em> <br><br>
+</div>
+<br>
+
+## Video Demonstration
+https://youtu.be/DSuxA2yHDgA
+
 ## Variables / Tags
 | Variable | Type (I/O/Internal) | PLC Tag | Description |
 |---|---|---|---|
@@ -24,10 +33,4 @@ This is my second attempt at building a basic control system to learn industrial
 | `TimerZ3` | Internal | N/A | TON timer used for Zone 3 transfer timing. |
 | `timer5sec` | Internal | N/A | Preset delay used for transfer timing (`T#5s`). |
 
-
-
-![Uploading image.png…]()
-
-## Video Demonstration
-https://youtu.be/DSuxA2yHDgA
 
