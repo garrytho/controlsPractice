@@ -22,9 +22,9 @@ https://youtu.be/DSuxA2yHDgA
 | Variable | Type (I/O/Internal) | PLC Tag | Description |
 |---|---|---|---|
 | `Start` | Input | _IO_EM_DI_00 | Starts the conveyor sequence (simulated pushbutton / photoeye). |
-| `boxZ1` | Internal | N/A | Box present at the end of Zone 1 (zone “occupied” / photoeye state). |
-| `boxZ2` | Internal | N/A | Box present at the end of Zone 2 (zone “occupied” / photoeye state). |
-| `boxZ3` | Internal | N/A | Box present at the end of Zone 3 (zone “occupied” / photoeye state). |
+| `boxZ1` | Internal | N/A | Box present at the start of Zone 1 |
+| `boxZ2` | Internal | N/A | Box present at the start of Zone 2 |
+| `boxZ3` | Internal | N/A | Box present at the start of Zone 3 |
 | `motorZ1` | Output | _IO_EM_DO_17 | Motor command for Zone 1 conveyor. |
 | `motorZ2` | Output | _IO_EM_DO_18 | Motor command for Zone 2 conveyor. |
 | `motorZ3` | Output | _IO_EM_DO_19 | Motor command for Zone 3 conveyor. |
@@ -32,5 +32,9 @@ https://youtu.be/DSuxA2yHDgA
 | `TimerZ2` | Internal | N/A | TON timer used for Zone 2 transfer timing. |
 | `TimerZ3` | Internal | N/A | TON timer used for Zone 3 transfer timing. |
 | `timer5sec` | Internal | N/A | Preset delay used for transfer timing (`T#5s`). |
+
+#Planned Improvements:
+-HMI integration using Connected Components Workbench's PanelView800 Simulator
+-Introduction of simulated Photoeyes which influence multi-zone behavior while processing several boxes.
 
 
