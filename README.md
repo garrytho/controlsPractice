@@ -26,6 +26,7 @@ This is my second attempt at building a basic control system to learn industrial
 
 
 
+![Uploading image.png…]()
 
 ## Video Demonstration
 https://youtu.be/DSuxA2yHDgA
