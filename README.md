@@ -33,8 +33,8 @@ https://youtu.be/DSuxA2yHDgA
 | `TimerZ3` | Internal | N/A | TON timer used for Zone 3 transfer timing. |
 | `timer5sec` | Internal | N/A | Preset delay used for transfer timing (`T#5s`). |
 
-#Planned Improvements:
--HMI integration using Connected Components Workbench's PanelView800 Simulator
+## Planned Improvements:
+-HMI integration using Connected Components Workbench's PanelView800 Simulator<br>
 -Introduction of simulated Photoeyes which influence multi-zone behavior while processing several boxes.
 
 
